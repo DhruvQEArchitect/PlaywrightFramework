@@ -1,0 +1,15 @@
+<suite name="Smoke test suite" thread-count="2" parallel="tests" verbose="4">
+    <listeners>
+        <listener class-name="com.bookstore.reporting.ExtentConfig"/>
+    </listeners>
+    <test name="Home Page Smoke test cases">
+        <classes>
+            <class name="com.bookstore.tests.HomePageTests"/>
+        </classes>
+    </test>
+    <test name="Login Page Smoke test cases">
+        <classes>
+            <class name="com.bookstore.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>

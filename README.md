@@ -17,13 +17,13 @@ This repository serves following purposes:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/DhruvQEArchitect/PlaywrightFramework.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd PlaywrightFramework
 ```
 
 Install dependencies
@@ -49,4 +49,5 @@ Trigger Tests
 - Excel Integration
 - API Testing
 - Add more test cases
+- Add more test suites
 
