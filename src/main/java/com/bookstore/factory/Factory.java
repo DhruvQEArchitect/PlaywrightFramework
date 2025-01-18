@@ -10,7 +10,7 @@ import java.util.Properties;
 public class Factory {
 
     static String currDir = System.getProperty("user.dir");
-    String path;
+    static String path;
     private static Factory instance = null;
 
     private static ThreadLocal<Playwright> playwrightThreadLocal = new ThreadLocal<>();
@@ -75,7 +75,7 @@ public class Factory {
         return getPage();
     }
 
-    public String getPropValues(String key) {
+    public static String getPropValues(String key) {
         path = currDir + "/src/test/Resources/Framework.properties";
         Properties properties = new Properties();
         try {
