@@ -1,5 +1,5 @@
 
-# Playwright Automation Framework 🎭
+# 🎭Playwright Automation Framework 🎭
 
 This repository serves following purposes:
 
